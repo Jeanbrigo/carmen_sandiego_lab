@@ -145,3 +145,17 @@ WHERE population = 91084;
 
 
 -- She's in Santa Monica!
+
+
+
+-- HUNGRY FOR MORE PART
+
+UPDATE city
+SET name = 'Brasília'
+WHERE id = 211;
+
+SELECT name
+FROM city
+WHERE id = 211;
+
+-- name            | Brasília
